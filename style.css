@@ -1,0 +1,384 @@
+@font-face { 
+    font-family: 'bodoni', sans-serif;
+    src: url(bodoni.otf);
+    }
+
+    .menu-icon{
+height: 50px;
+width: 50px;
+align-items: right;
+display: none;
+
+    }
+
+    .topbar2{
+        max-width: 100%;
+        height: 80px;
+        background-color: #5E2716;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+        font-family: bodoni;
+    }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#092626;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: #104B4D;
+    height: 75px;
+    padding-right: 60px;
+    font-family: bodoni;
+    
+}
+
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    display: block;
+}
+
+.navbar-links li:hover{
+    background-color: orange;}
+
+
+.row{
+    max-width: 1400px;
+    display: flex;
+    background-color: #092626;
+    margin: 0 auto;
+}
+.end{
+    justify-content: end;
+}
+.center{
+    justify-content: center;
+}
+#topbar{
+    background-color: #104B4D;
+}
+
+#topbar nav{
+    width: 1400px;
+    background-color: #104B4D;
+    justify-content: right;
+    
+}
+#logo{
+    margin-top: -100px;
+  
+    padding: 0;
+    
+}
+.full-row{
+    display: flex;
+}
+.col1{display: flex;
+    background-color: #BDCEC3;
+    flex-basis: 100%;
+    
+}
+.col2{
+    background-color: #708C79;
+    flex-basis: 100%;
+    height: 700px;
+}
+.col1 > div, .col2 > div{
+    width: 370px;
+    
+    
+}
+.col1{
+    justify-content: end;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #092626;
+}
+
+h1{
+    color: #BDCEC3;
+    font-size: 60px;
+    font-family: bodoni;
+    margin: 0% auto;
+    padding-top: 70px;
+}
+
+h2{
+    font-size: 60px;
+    color: #BDCEC3;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+h3{
+    font-size: 40px;
+    padding-right: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #092626;
+   
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white; 
+    font-size: 20px; 
+    align-items: center;
+    padding-left: 60px;
+    font-weight: 100;
+    
+    
+    margin: 0 auto;
+}
+
+h5{
+    font-size: 40px;
+    padding-left: 65px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   color: white; 
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #092626 ; 
+    font-size: 20px; 
+    align-items: center;
+    padding-right: 40px;
+    
+    margin: 0 auto;
+    
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .menu-icon{
+        height: 50px;
+        width: 50px;
+        align-items: right;
+        
+        
+            }
+
+
+    h1{
+        color: #BDCEC3;
+        font-size: 70px;
+        font-family: bodoni;
+        margin: 0% auto;
+        padding-top: 0%;
+    }
+
+    h2{
+        font-size: 60px;
+        color: #BDCEC3;
+        margin-top: -30px;
+        padding-top: 0;
+    }
+
+    h3{
+        font-size: 50px;
+        padding-right: 50px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    h4{
+        font-family: Arial, Helvetica, sans-serif;  
+        color: white; 
+        font-size: 20px; 
+        align-items: center;
+        padding-left: 60px;
+        font-weight: 100;
+        max-width: 300px;
+        
+
+        
+        margin: 0 auto;
+    }
+
+    h5{
+        font-size: 50px;
+        padding-left: 60px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       color: white; 
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;  
+        color: #092626 ; 
+        font-size: 20px; 
+        align-items: center;
+        padding-right: 40px;
+        
+        margin: 0 auto;
+        
+    }
+
+    body{
+        
+        background-color: #092626;
+        max-width: 600px;
+        
+    }
+
+    #logo{
+        margin-top: -75px;
+        padding: 0%;
+       
+    }
+ 
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links{
+        
+        width: 600px;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 600px;
+        
+        
+
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        max-width: 100%;
+        
+    }
+    .navbar-links li{
+        text-align: center;
+        display: block;
+        
+    }
+    .navbar-links li a {
+        padding: 30px;
+        
+        margin: 0 auto;
+        
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .center{
+        justify-content: center;
+    } 
+    .row{
+        max-width: 600px;
+        display: block;
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 10px;
+        height: 400px;
+        width: 400px;
+        background-color:#092626;
+        
+        
+        }
+
+        .full-row{
+            flex-direction: column;
+           
+        }
+        .col1{
+            background-color: #BDCEC3;
+            
+            padding-bottom: 70px;
+            margin: 0 auto;
+            width: 100%;
+            flex-basis: 0;
+        }
+        .col2{
+            background-color: #708C79;
+            
+            height: 1200px;
+            width: 100%;
+            padding-bottom: 70px;
+            margin: 0 auto;
+            flex-basis: 0;
+            
+        }
+        .col1 > div, .col2 > div{
+            width: 370px;
+            
+            
+        }
+        .col1{
+            justify-content: end;
+        }
+        
+        #topbar nav{
+            width: 100%;
+            
+            background-color: #092626;
+            justify-content: right; }
+             
+            #topbar{
+                max-width: 100%;
+                margin: 0;
+            background-color: #092626;
+            }
+                
+                
+
+                .topbar2{
+                    max-width: 600px;
+                    height: 50px;
+                    background-color: #5E2716;
+                    color: white;
+                    font-size: 30px;
+                    text-align: center;
+                    padding-top: 30px;
+                    margin: 0 auto;
+                    font-family: bodoni;
+                }
+              
+    
+             
+            
+                
+
+ }
+
+
+
+
